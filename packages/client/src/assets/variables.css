@@ -1,0 +1,17 @@
+:root{
+  --primaryOrange: rgba(231, 155, 56, 1);
+  --primaryRed: rgba(202, 107, 110, 1);
+  --primaryBlue: rgba(71, 143, 150, 1);
+  --primaryBlack: rgba(48, 48, 48, 1);
+  --lightOrange: rgba(248, 222, 189, 1);
+  --lightBlue: rgba(208, 251, 255, 1);
+  --lightRed: rgba(251, 240, 243, 1);
+  
+  --text-darkInactive: rgba(112, 112, 112, 1);
+
+  --background-white: rgba(255, 252, 248, 1);
+  --border-box-color: rgba(232, 231, 231, 1);
+
+  --error-red: rgba(233, 93, 92, 1);
+  --success-green: rgba(144, 223, 158, 1);
+}

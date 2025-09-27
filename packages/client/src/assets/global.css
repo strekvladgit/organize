@@ -1,0 +1,27 @@
+@import url(./fonts.css);
+@import url(./variables.css);
+@import url(./reset.css);
+
+html, body{
+  width:100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+#root{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-rendering: optimizeSpeed;
+  background: linear-gradient(90.00deg, rgba(227, 238, 255, 1),rgba(227, 238, 255, 1) 3%,rgba(242.91583251953125, 231.03683471679688, 233.11573791503906, 1) 97%,rgba(243, 231, 233, 1) 99%);
+}
+
+.box {
+  border:1px solid var(--border-box-color);
+  box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.08);
+  background-color: rgb(255,255,255);
+  padding:1.25rem;
+  border-radius: 0.75rem;
+}
